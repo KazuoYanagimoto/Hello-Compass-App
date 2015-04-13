@@ -1,7 +1,7 @@
 // -- import custom --
 @import "custom/**";
 // -- import framework/libraries --
-// @import "compass/reset";
+@import "compass/reset";
 @import "compass";
 // -- import partials --
 @import "settings/**";
