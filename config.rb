@@ -1,5 +1,5 @@
 # Require any additional compass plugins here.
-add_import_path "bower_components/foundation/scss"
+# add_import_path "bower_components/foundation/scss"
 
 # require 'font-awesome-sass'
 # require 'bootstrap-sass'
@@ -14,7 +14,7 @@ images_dir = dev_dir + "/images"
 javascripts_dir = dev_dir + "/scripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
-# output_style = :expanded or :nested or :compact or :compressed
+output_style = :nested
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
@@ -27,3 +27,4 @@ javascripts_dir = dev_dir + "/scripts"
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+sass_options = {:sourcemap => true}
