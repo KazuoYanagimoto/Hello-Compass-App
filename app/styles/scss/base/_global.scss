@@ -1,1 +1,27 @@
 // global styling
+body {
+	// @include container(85%);
+}
+.main {
+	padding: 50px;
+	text-align: center;
+	@include contrasted(#2f2f2f);
+	h1 {
+		padding: 30px;
+		font-size: 3em;
+	}
+	p {
+		padding: 15px;
+		font-size: 1.5em;
+		a {
+			color: #fb292d;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+				&:after {
+					content: '!';
+				}
+			}
+		}
+	}
+}
